@@ -32,7 +32,7 @@ push-release:
         repository: $DOCKER_REPO
         registry: $DOCKER_REGISTRY
         tag: $WERCKER_GIT_BRANCH-$WERCKER_GIT_COMMIT
-        working-dir: /pipeline/source
+        working-dir: demo
         ports: $PORT
         env: PORT=$PORT
         cmd: ./start.sh
