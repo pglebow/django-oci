@@ -12,7 +12,7 @@ build:
     # A step that sets up the python virtual environment
     - virtualenv:
         name: setup virtual environment
-        python_location: /usr/bin/python3
+        python_location: /usr/local/bin/python
 
     # A step that executes `pip install` command.
     - pip-install
