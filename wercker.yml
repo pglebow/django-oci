@@ -35,7 +35,7 @@ push-release:
         working-dir: /pipeline/source
         ports: $PORT
         env: PORT=$PORT
-        cmd: demo/start.sh
+        cmd: cd demo; ./start.sh
 
 #Deploy our container from the Docker Hub to Kubernetes
 deploy-to-cluster:
