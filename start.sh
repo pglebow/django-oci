@@ -1,4 +1,5 @@
 #!/bin/bash
+cd demo
 
 # Start Gunicorn processes
 echo Starting Gunicorn.
